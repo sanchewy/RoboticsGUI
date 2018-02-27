@@ -130,21 +130,21 @@ def settings_popup(Event, frame):
 
 #Hard coded x coordinates of each Frame to determine drop location of widget
 def get_frame_num(x_coor):
-    if(x_coor > 65 and x_coor <= 140):
+    if(x_coor > 85 and x_coor <= 160):
         return 1
-    elif(x_coor > 150 and x_coor <= 225):
+    elif(x_coor > 170 and x_coor <= 245):
         return 2
-    elif(x_coor > 235 and x_coor <= 310):
+    elif(x_coor > 255 and x_coor <= 330):
         return 3
-    elif(x_coor > 320 and x_coor <= 395):
+    elif(x_coor > 340 and x_coor <= 415):
         return 4
-    elif(x_coor > 405 and x_coor <= 480):
+    elif(x_coor > 425 and x_coor <= 500):
         return 5
-    elif(x_coor > 490 and x_coor <= 565):
+    elif(x_coor > 510 and x_coor <= 585):
         return 6
-    elif(x_coor > 575 and x_coor <= 650):
+    elif(x_coor > 595 and x_coor <= 670):
         return 7
-    elif(x_coor > 660 and x_coor <= 735):
+    elif(x_coor > 680 and x_coor <= 755):
         return 8
     else:
         return -1
