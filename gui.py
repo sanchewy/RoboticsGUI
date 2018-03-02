@@ -180,6 +180,8 @@ def settings_popup(Event, frame):
                 if isinstance(child, Frame):
                     child.destroy()
             widget_list.clear()
+            # nonlocal widget_list      # Cool sidenote, you can also use these two commands in python3 to reference outter-scope variable.
+            # widget_list = []          # This could replace 'widget_list.clear()'
             bonus_frame = Frame(toplevel)
             bonus_frame.pack()
             selection = str(v.get())
