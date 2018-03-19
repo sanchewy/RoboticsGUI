@@ -1,4 +1,4 @@
-import sys, tty, termios
+import sys #, tty , termios
 import serial
 import time
 from sys import version_info
@@ -169,7 +169,7 @@ class Controller:
         cmd = chr(0x24)
         self.sendCmd(cmd)
 
-def getch():
+''' def getch():
     fd = sys.stdin.fileno()
     old_settings = termios.tcgetattr(fd)
     try:
@@ -179,6 +179,7 @@ def getch():
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
     return ch
 
+'''
 #Slow down motion on servo X going curSpeed by increment
 def slowDown(servo, curSpeed):
     forward = curSpeed < 6000
