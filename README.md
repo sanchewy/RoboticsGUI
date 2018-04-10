@@ -19,8 +19,8 @@ of data input.
 
 The Pi boards run a full linux image loaded onto the Micro SD cards.
 
-![alt text] (https://github.com/sanchewy/RoboticsGUI/blob/master/Illustrations/Pi_Image.PNG)
+![alt text](https://github.com/sanchewy/RoboticsGUI/blob/master/Illustrations/Pi_Image.PNG)
 
 Here is an image of the robots. Arms were added to all of them for later projects.
 
-![alt text] (https://github.com/sanchewy/RoboticsGUI/blob/master/Illustrations/Robots_Image.PNG)
+![alt text](https://github.com/sanchewy/RoboticsGUI/blob/master/Illustrations/Robots_Image.PNG)
