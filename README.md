@@ -17,4 +17,10 @@ b. If your program crashes you lose control of the stop function, be prepared to
 8. Prepare in advance, Write your code so the controller can take input from a keyboard, network or possibly the touch screen or pre-created text file. Be prepared for any type
 of data input.
 
-![alt text] (https://github.com/sanchewy/RoboticsTTS/blob/TCPthreading/Illustrations/Robots_Image.PNG)
+The Pi boards run a full linux image loaded onto the Micro SD cards.
+
+![alt text] (https://github.com/sanchewy/RoboticsGUI/blob/master/Illustrations/Pi_Image.PNG)
+
+Here is an image of the robots. Arms were added to all of them for later projects.
+
+![alt text] (https://github.com/sanchewy/RoboticsGUI/blob/master/Illustrations/Robots_Image.PNG)
